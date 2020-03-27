@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="js-plan" class="header">
+      <div class="header__body">
+        <div class="header__top">
+          <div class="logo-block">
+            <div class="logo-block__icon">
+              <img src="images/Ellipse.png" alt="ellipse" />
+            </div>
+            <div class="logo-block__text">АйПиПатронаж</div>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li>
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li><a href="#" class="menu__link">О компании</a></li>
+              <li><a href="#" class="menu__link">Услуги</a></li>
+              <li><a href="#" class="menu__link">Цены</a></li>
+              <li><a href="#" class="menu__link">Блог</a></li>
+              <li><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+            <div class="contact">
+                <a href="tel:8842531051">8 (841 2) 53-10-51</a>
+              </div>
+          </nav>
+        </div>
+        <div class="header__text">
+          <div class="header__title"><h1>Профессиональная<br>забота о Ваших близких</h1></div>
+          <div class="header__subtitle">Подберём одходящую вам сиделку по доступной цене</div>
+        </div>
+        <a href="#" tybe="button" class="header__button button"><span>подробнее</span></a>
+        <a id="js-btn-3" href="#" class="header__click">
+                <img src="images/oval.png" alt="click">
+        </a>
+      </a>
+    </header>
+    <main id="js-main" class="main">
+        <div class="service">
+            <div class="service__body">
+                <div class="servise__header">
+                <h2 class="service__title title">В услугу включено</h2>
+                </div>
+                <div class="service__content">
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon1.png" alt="Пища">
+                        </div>
+                        <h3 class="item-service__title">Приготовление пищи</h3>
+                        <div class="item-service__text">Покупка продуктов, приём пищи по расписанию, соблюдение диеты</div>
+                    </div>
+                </div>
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon2.png" alt="Больница">
+                        </div>
+                        <h3 class="item-service__title">Сопровождение</h3>
+                        <div class="item-service__text">Безопасные покупки при посещении медицинских учреждений</div>
+                    </div>
+                </div>
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon3.png" alt="Медикаменты">
+                        </div>
+                        <h3 class="item-service__title">Приём медикаментов</h3>
+                        <div class="item-service__text">Контроль приёма медикаментов <br> по времени и назначению врача, вызов врача на дом, измерение давления <br> (уровня сахара в крови)</div>
+                    </div>
+                </div>
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon4.png" alt="Личная гигиена">
+                        </div>
+                        <h3 class="item-service__title">Личная гигиена</h3>
+                        <div class="item-service__text">Купание, стрижка волос и ногтей, замена памперсов</div>
+                    </div>
+                </div>
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon5.png" alt="Уборка">
+                        </div>
+                        <h3 class="item-service__title">Помощь по дому</h3>
+                        <div class="item-service__text">машинная стирка, лёгкая уборка</div>
+                    </div>
+                </div>
+                <div class="service__column">
+                    <div class="item-service">
+                        <div class="item-service__icon">
+                            <img src="images/icon6.png" alt="Дружелюбие">
+                        </div>
+                        <h3 class="item-service__title">Дружеское отношение</h3>
+                        <div class="item-service__text">Социальная и моральная поддержка, проведение досуга</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantages">
+            <div class="advantages__body">
+                <div class="advantages__header"><h2 class="advantages__title title">Наши преимущества</h2></div>
+                <div class="advantages__content">
+                    <div class="advantages-block">
+                        <h3 class="advantages-block__title">Оперативность</h3>
+                        <div class="advantages-block__text">Вам не нужно долго ждать. Мы ценим время наших клиентов поэтому подбираем сиделку быстро - в день обращения.</div>
+                        <div id="dots-block">
+                            <button class="dot dot-active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                        </div>
+                        <div class="buttons-block">
+                            <div id="prev-btn">&lt;</div>
+                            <div id="next-btn">&gt;</div>
+                        </div>
+                    </div>
+                    <div id="img-container" class="images-container">
+                        <img class="slider-item fade" src="images/Rectangle.png" alt="">
+                        <img class="slider-item fade" src="images/Rectangle-2.png" alt="">
+                        <img class="slider-item fade" src="images/Rectangle-3.png" alt="">
+                        <img class="slider-item fade" src="images/Rectangle-4.png" alt="">
+                        <img class="slider-item fade" src="images/Rectangle-4.png" alt="">
+                    </div>
+                </div>
+                <a href="#" type="button" class="advantages__button button"><span>Заказать услугу</span></a>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="reviews__body">
+                <div class="reviews__header"><h2 class="reviews__title title">Отзывы клиентов</h2></div>
+                <div class="reviews__content">
+                    <div class="reviews__image">
+                        <img src="images/Rectangle1.png" alt="Доктор">
+                    </div>
+                    <div class="reviews-block">
+                        <div class="reviews__top">“</div>
+                        <div class="text">
+                        <div class="reviews__text">С 2009 года сотрудничаем с АйПи Бухгалтер. <br>Результат: 4 сайта по различным направлениям. <br>Каждый раз получали, что хотели.</div>
+                        <div class="reviews__subtext">Рылина Екатерина Андреевна <br>Главный редактор журнала SD</div>
+                        <a href="#" class="reviews__adress">www.sd-magazine.ru</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="reviews-radio">
+                    <a  class="reviews-radio__item active"></a>
+                    <a  class="reviews-radio__item"></a>
+                    <a  class="reviews-radio__item"></a>
+                    <a  class="reviews-radio__item"></a>
+                    <a  class="reviews-radio__item"></a>
+                </div>
+            </div>
+        </div>
+        <div class="request">
+            <div id="section01" class="request__body">
+                <div class="request__header"><h2 class="request__title title">Оформите заявку</h2></div>
+                <form class="form">
+                    <div class="form-row">
+                        <label class="form-group">
+                        <span class="form-hint">Ваши ФИО *</span>
+                        <input type="text" class="field" placeholder="" required>
+                    </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="form-group">
+                        <span class="form-hint">Ваш телефон</span>
+                        <input type="tel" class="field" placeholder="+7" required>
+                    </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="form-group">
+                        <span class="form-hint">Сообщение</span>
+                        <textarea class="field textarea" placeholder="" required></textarea>
+                    </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="checkbox-group">
+                        <input type="checkbox" class="checkbox" required>
+                        <span class="checkbox-text">Я согласен на обработку персональных данных</span>
+                        </label>
+                        </div>
+                    <div class="form-row">
+                        <button class="form__button button">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <a href="#" id="js-btn" class="go-top">
+                <img src="images/go-top.png" alt="go-top">
+            </a>
+        </div>    
+        <div class="happy">
+            <div class="happy__body">
+                <div class="happy__title">Мы всегда рады вас видеть</div>
+                <div class="happy__text">Приезжайте к нам в офис</div>
+                <a href="#" tybe="button" class="happy__button button"><span>посмотреть на карте</span></a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__body">
+                <div class="footer__top">
+                    <div class="footer__column">
+                        <div class="footer-block">
+                            <div class="footer-block__icon">
+                              <img src="images/Ellipse.png" alt="ellipse" />
+                            </div>
+                            <div class="footer-block__text">АйПиПатронаж</div>
+                          </div>
+                        <div class="block-tel">
+                          <a  href="tel:88412524390" class="footer__tel">8 (841 2) 52-43-90</a>
+                        <a href="tel:88412531051"  class="footer__tel">8 (841 2) 53-10-51</a>
+                    </div>
+                        <a herf="mailto:best.penza@gmail.com" class="footer__email">best.penza@gmail.com
+                        </a>
+                    </div>
+                    <div class="footer__column">
+                        <a href="#" class="footer__title-column">Услуги</a>
+                        <nav class="footer__title-menu">
+                            <li>
+                                <a href="#" class="footer__title-link">Уход за пожилыми</a>
+                            </li>
+                            <li><a href="#" class="footer__title-link">Уход за больными</a></li>
+                            <li><a href="#" class="footer__title-link">Медицинский патронаж</a></li>
+                            <li><a href="#" class="footer__title-link">Перевозка лежачих больных</a></li>
+                            <li><a href="#" class="footer__title-link">Уход на дому</a></li>
+                            <li><a href="#" class="footer__title-link">Сопровождение инвалидов</a></li>
+                        </nav>
+                    </div>
+                    <div class="footer__column">
+                        <nav class="footer__menu">
+                            <li><a href="#" class="footer__link">Главная страница</a></li>
+                            <li><a href="#" class="footer__link">О компании</a></li>
+                            <li><a href="#" class="footer__link">Цены</a></li>
+                            <li><a href="#" class="footer__link">Контакты</a></li>
+                        </nav>
+                    </div>
+                </div> 
+                <div class="footer__bottom">
+                    <div class="footer__column">
+                        <a href="#" class="footer__copyrite">© Компания «Ай Пи Патронаж»</a>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__adress">Пенза, Московская, 88Б, офис 4 <br>Пн-Пт с 9:00 до 18:00</div>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="socials">
+                            <li class="socials__item">
+                            <a href="#0" class="socials__link ok">
+                                <img src="images/socials.png" alt="ok">
+                            </a>
+                            </li>
+                            <li class="socials__item">
+                            <a href="#0" class="socials__link vk">
+                                <img src="images/socials.png" alt="vk">
+                            </a>
+                            </li>
+                            <li class="socials__item">
+                            <a href="#0" class="socials__link facebook">
+                                <img src="images/socials.png" alt="facebook">
+                            </a>
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="#" id="js-btn-2" class="footer__go-top">
+                <img src="images/footer-go-top.png" alt="go-top">
+            </a>
+        </footer>
+    
+</main>
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
